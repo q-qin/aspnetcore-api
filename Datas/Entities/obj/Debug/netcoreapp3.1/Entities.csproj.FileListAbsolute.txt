@@ -6,3 +6,4 @@ D:\github\aspnetcore-api\Datas\Entities\obj\Debug\netcoreapp3.1\Entities.Assembl
 D:\github\aspnetcore-api\Datas\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CoreCompileInputs.cache
 D:\github\aspnetcore-api\Datas\Entities\obj\Debug\netcoreapp3.1\Entities.dll
 D:\github\aspnetcore-api\Datas\Entities\obj\Debug\netcoreapp3.1\Entities.pdb
+D:\github\aspnetcore-api\Datas\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.AssemblyReference.cache
