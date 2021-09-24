@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <doc>
     <assembly>
-        <name>application</name>
+        <name>Applications</name>
     </assembly>
     <members>
         <member name="T:api.Controllers.WeatherController">
@@ -9,7 +9,7 @@
             天气控制器
             </summary>
         </member>
-        <member name="M:api.Controllers.WeatherController.#ctor(Microsoft.Extensions.Logging.ILogger{api.Controllers.WeatherController})">
+        <member name="M:api.Controllers.WeatherController.#ctor(Microsoft.Extensions.Logging.ILogger{api.Controllers.WeatherController},Entities.User)">
             <summary>
             记录日志
             </summary>

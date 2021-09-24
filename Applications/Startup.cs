@@ -5,7 +5,6 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.PlatformAbstractions;
 using Microsoft.OpenApi.Models;
 using System;
 using System.Collections.Generic;
@@ -33,8 +32,9 @@ namespace api
             {
                 options.SwaggerDoc("v1", new OpenApiInfo { Title = "My API", Version = "v1" });
                 // 获取xml文件名
-                var basePath = PlatformServices.Default.Application.ApplicationBasePath;
-                var xmlPath = Path.Combine(basePath, "Swagger\\application.xml");
+                var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+                // 获取xml文件路径
+                var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
                 // 添加控制器层注释，true表示显示控制器注释
                 options.IncludeXmlComments(xmlPath, true);
             });
