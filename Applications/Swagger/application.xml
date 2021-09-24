@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>application</name>
+    </assembly>
+    <members>
+        <member name="T:api.Controllers.WeatherController">
+            <summary>
+            天气控制器
+            </summary>
+        </member>
+        <member name="M:api.Controllers.WeatherController.#ctor(Microsoft.Extensions.Logging.ILogger{api.Controllers.WeatherController})">
+            <summary>
+            记录日志
+            </summary>
+        </member>
+        <member name="M:api.Controllers.WeatherController.Get">
+            <summary>
+            获取天气
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

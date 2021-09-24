@@ -1,0 +1,9 @@
+D:\github\aspnetcore-api\Core\Core\bin\Debug\netcoreapp3.1\Core.deps.json
+D:\github\aspnetcore-api\Core\Core\bin\Debug\netcoreapp3.1\Core.dll
+D:\github\aspnetcore-api\Core\Core\bin\Debug\netcoreapp3.1\Core.pdb
+D:\github\aspnetcore-api\Core\Core\obj\Debug\netcoreapp3.1\Core.csproj.AssemblyReference.cache
+D:\github\aspnetcore-api\Core\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfoInputs.cache
+D:\github\aspnetcore-api\Core\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfo.cs
+D:\github\aspnetcore-api\Core\Core\obj\Debug\netcoreapp3.1\Core.csproj.CoreCompileInputs.cache
+D:\github\aspnetcore-api\Core\Core\obj\Debug\netcoreapp3.1\Core.dll
+D:\github\aspnetcore-api\Core\Core\obj\Debug\netcoreapp3.1\Core.pdb
