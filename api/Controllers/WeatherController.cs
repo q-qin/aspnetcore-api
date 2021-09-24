@@ -7,22 +7,32 @@ using System.Threading.Tasks;
 
 namespace api.Controllers
 {
+    /// <summary>
+    /// 天气控制器
+    /// </summary>
     [ApiController]
-    [Route("[controller]")]
-    public class WeatherForecastController : ControllerBase
+    [Route("api/weather")]
+    public class WeatherController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
         {
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         };
 
-        private readonly ILogger<WeatherForecastController> _logger;
+        private readonly ILogger<WeatherController> _logger;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        /// <summary>
+        /// 记录日志
+        /// </summary>
+        public WeatherController(ILogger<WeatherController> logger)
         {
             _logger = logger;
         }
 
+        /// <summary>
+        /// 获取天气
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
